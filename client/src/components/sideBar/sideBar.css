@@ -1,0 +1,18 @@
+.sidebar{
+  min-width: var(--sidebar-width);
+  height:100vh;
+  position:fixed;
+  background-color: aqua;
+  top:0;
+  left:0;
+  background-color: var(--main-bg);
+  box-shadow: var(--box-shadow);
+}
+
+.sidebar-logo{
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
